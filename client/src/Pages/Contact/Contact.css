@@ -1,0 +1,83 @@
+.form {
+  border: 2px solid;
+  width: 40rem;
+  min-height: 22rem;
+  margin-top: 20px;
+  margin-left: 25rem;
+  margin-bottom: 20px;
+  background-color: #323131;
+}
+.contact-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.form-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.form-items input {
+  width: 15rem;
+  height: 2.2rem;
+}
+.form-items label {
+  color: #fc7d08;
+  text-transform: capitalize;
+}
+.message {
+  display: flex;
+  flex-direction: column;
+}
+.message input {
+  width: 31.2rem;
+  height: 5rem;
+  margin-bottom: 20px;
+}
+.message label {
+  color: #fc7d08;
+  text-transform: capitalize;
+}
+.submit button {
+  color: #fc7d08;
+  text-decoration: none;
+  background-color: #d9d9d9;
+  padding: 8px;
+  margin-left: 4.3rem;
+  border-radius: 10px;
+  font-size: 20px;
+  text-transform: capitalize;
+  border: none;
+}
+.submit button:hover {
+  background-color: #524f4f;
+  color: white;
+}
+.map {
+  background-color: rgb(236, 235, 235);
+  height: 90vh;
+}
+.map-text {
+  display: grid;
+  place-content: center;
+  text-align: center;
+}
+.map-text h1 {
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.map-text p {
+  font-size: 13px;
+  padding: 10px;
+}
+.map iframe {
+  width: 50rem;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 17rem;
+  margin-bottom: -30rem;
+}

@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  height: 8vh;
+}
+.logo {
+  color: #fc7d08;
+  font-size: 35px;
+  margin-left: 30px;
+}
+.cta {
+  display: flex;
+  gap: 40px;
+  margin-right: 30px;
+}
+.cta a {
+  background-color: #d9d9d9;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fc7d08;
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: ease-in-out 0.2s;
+}
+.cta a:hover {
+  background-color: #524f4f;
+  color: white;
+}
+.list-items {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+}
+.item {
+  list-style: none;
+}
+.item a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fc7d08;
+  font-size: 20px;
+  transition: 0.2s ease-in-out;
+}
+.item a:hover {
+  background-color: #d9d9d9;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 46.875em) {
+  .header {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 37.5em) {
+  .cta {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+}

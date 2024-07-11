@@ -1,0 +1,53 @@
+.room-containers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.room-container {
+  display: flex;
+  width: 30rem;
+  background-color: #d9d9d9;
+  transition: 0.2s ease-in-out;
+}
+.room-container:hover {
+  transform: scale(95%);
+}
+.room-image {
+  height: 15rem;
+  width: 50%;
+}
+.room-image img {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+.room-content {
+  width: 50%;
+  text-align: center;
+}
+.room-content h3 {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.room-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.room-content a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fc7d08;
+  text-transform: capitalize;
+  background-color: #323131;
+  padding: 8px;
+  border-radius: 10px;
+  transition: 0.2s ease-in-out;
+}
+.room-content a:hover {
+  background-color: #524f4f;
+}
